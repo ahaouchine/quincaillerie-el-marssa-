@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta property="og:title" content="Quincaillerie El Marssa – Dellys" />
+<meta property="og:description" content="Hardware & marine supplies in Dellys. Follow us for restocks and deals." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://www.facebook.com/p/Quincaillerie-El-Marssa-61556163506722/" />
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Aziz Hardware • Home</title>
+  <link rel="stylesheet" href="styles.css" />
+  <meta name="description" content="Local hardware store — plumber, electricity, hardware, paints, and marine supplies. Follow us for updates and deals." />
+</head>
+<body>
+  <!-- Top bar -->
+  <header class="topbar">
+  <div class="wrap">
+    <div class="brand">
+      <div class="logo" aria-hidden="true">🔧</div>
+      <div>
+        <h1 class="store">Quincaillerie El Marssa</h1>
+        <p class="tagline">Dellys, Algeria • خردوات و لوازم سفن الصيد البحري</p>
+      </div>
+    </div>
+    <nav class="nav">
+      <a href="#sections">Sections</a>
+      <a href="#updates">Updates</a>
+      <a href="#contact">Contact</a>
+      <!-- Follow on Facebook -->
+      <a class="btn small" href="https://www.facebook.com/p/Quincaillerie-El-Marssa-61556163506722/" target="_blank" rel="noopener">
+        Follow on Facebook
+      </a>
+    </nav>
+  </div>
+</header>
+
+    <div class="wrap">
+      <div class="brand">
+        <div class="logo" aria-hidden="true">🔧</div>
+        <div>
+          <h1 class="store">Rafik Hardware</h1>
+          <p class="tagline">Plumber • Electricity • Hardware • Paints • Marine</p>
+        </div>
+      </div>
+      <nav class="nav">
+        <a href="#sections">Sections</a>
+        <a href="#updates">Updates</a>
+        <a href="#contact">Contact</a>
+        <button class="btn small" id="followBtn">Follow updates</button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="cta-row">
+  <a class="btn" href="#sections">Browse Sections</a>
+  <a class="btn alt" href="https://www.facebook.com/p/Quincaillerie-El-Marssa-61556163506722/" target="_blank" rel="noopener">
+    Follow on Facebook
+  </a>
+</div>
+  </section>
+
+  <!-- Sections grid -->
+  <section id="sections" class="sections">
+    <div class="wrap">
+      <h3>Shop by section</h3>
+      <div class="grid">
+        <a class="card" href="#" aria-label="Plumber section">
+          <div class="icon">🚰</div>
+          <h4>Plumber</h4>
+          <p>Pipes, fittings, valves, sealants, faucets, heaters.</p>
+        </a>
+        <a class="card" href="#" aria-label="Electricity section">
+          <div class="icon">💡</div>
+          <h4>Electricity</h4>
+          <p>Wires, breakers, outlets, lighting, smart switches.</p>
+        </a>
+        <a class="card" href="#" aria-label="Hardware section">
+          <div class="icon">🛠️</div>
+          <h4>Hardware</h4>
+          <p>Hand tools, power tools, fasteners, ladders, safety.</p>
+        </a>
+        <a class="card" href="#" aria-label="Paints section">
+          <div class="icon">🎨</div>
+          <h4>Paints</h4>
+          <p>Interior & exterior paints, primers, rollers, brushes.</p>
+        </a>
+        <a class="card" href="#" aria-label="Marine section">
+          <div class="icon">⚓</div>
+          <h4>Marine</h4>
+          <p>Ropes, stainless hardware, bilge pumps, sealers.</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Updates / announcements -->
+  <section id="updates" class="updates">
+    <div class="wrap">
+      <h3>Latest updates</h3>
+      <ul class="updates-list" id="updatesList">
+        <!-- Example updates (you can edit or add from JS) -->
+        <li>
+          <time datetime="2025-09-29">Sep 29, 2025</time>
+          <span>New shipment: PVC fittings & copper pipe sizes restocked.</span>
+        </li>
+        <li>
+          <time datetime="2025-09-27">Sep 27, 2025</time>
+          <span>Weekend deal: 15% off interior paints (Saturday–Sunday).</span>
+        </li>
+      </ul>
+      <button class="btn small" id="addUpdateBtn" title="Owner quick add">+ Add update</button>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact">
+    <div class="wrap">
+      <h3>Contact & Hours</h3>
+      <div class="contact-grid">
+        <div>
+          <p><strong>Address:</strong> 121 E Tamarack Ave, Inglewood, CA</p>
+          <p><strong>Phone:</strong> (555) 123-4567</p>
+          <p><strong>Hours:</strong> Mon–Sat 9:00–18:00 • Sun 10:00–16:00</p>
+        </div>
+        <div class="socials">
+          <a class="chip" href="#" title="WhatsApp">WhatsApp</a>
+          <a class="chip" href="#" title="Instagram">Instagram</a>
+          <a class="chip" href="#" title="Facebook">Facebook</a>
+          <a class="chip" href="#" title="Email">Email</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="wrap">
+      <small>© <span id="year"></span> Aziz Hardware. All rights reserved.</small>
+      <a class="link" href="#" id="ownerMode">Owner mode</a>
+    </div>
+  </footer>
+
+  <!-- Follow modal -->
+  <dialog id="followDialog">
+    <form id="followForm" method="dialog" class="follow-card">
+      <button class="close" value="cancel" aria-label="Close">×</button>
+      <h4>Follow our updates</h4>
+      <p>Get deals and restock notifications. Choose email or WhatsApp.</p>
+
+      <label class="field">
+        <span>Email</span>
+        <input type="email" name="email" placeholder="you@example.com" />
+      </label>
+
+      <div class="sep"><span>or</span></div>
+
+      <label class="field">
+        <span>WhatsApp number</span>
+        <input type="tel" name="whatsapp" placeholder="+1 555 123 4567" />
+      </label>
+
+      <button class="btn" value="submit">Follow</button>
+      <p class="tiny">Demo only: saved locally on your device.</p>
+    </form>
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
